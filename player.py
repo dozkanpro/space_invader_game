@@ -5,8 +5,8 @@ class Player(Turtle):
     def __init__(self):
         super().__init__()
         self.speed(0)
-        self.shape("triangle")
-        self.color("white")
+        self.screen.register_shape("ship.gif")
+        self.shape("ship.gif")
         self.penup()
         self.goto(0, -250)
         self.speed = 15

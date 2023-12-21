@@ -6,11 +6,11 @@ class Alien(Turtle):
     def __init__(self):
         super().__init__()
         self.speed(0)
-        self.shape("square")
-        self.color("red")
+        self.screen.register_shape("alien.gif")
+        self.shape("alien.gif")
         self.penup()
         self.goto(random.randint(-380, 380), random.randint(100, 250))
-        self.speed = 1
+        self.speed = 0.1
 
     def move(self):
         x = self.xcor()
