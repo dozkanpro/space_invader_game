@@ -1,4 +1,4 @@
-@set "VIRTUAL_ENV=C:\Users\Deniz\space_invaders_game\venv"
+@set "VIRTUAL_ENV=C:\Users\Deniz\space_invaders_game\myenv"
 
 @if defined _OLD_VIRTUAL_PROMPT (
     @set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
