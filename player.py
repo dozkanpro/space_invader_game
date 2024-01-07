@@ -9,18 +9,18 @@ class Player(Turtle):
         self.shape("ship.gif")
         self.penup()
         self.goto(0, -250)
-        self.speed = 15
+        self.movement = 15
 
     def move_left(self):
         x = self.xcor()
-        x -= self.speed
+        x -= self.movement
         if x < -380:
             x = -380
         self.setx(x)
 
     def move_right(self):
         x = self.xcor()
-        x += self.speed
+        x += self.movement
         if x > 380:
             x = 380
         self.setx(x)
